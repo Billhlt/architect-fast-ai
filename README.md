@@ -42,10 +42,10 @@
         │                               │   外部 Spring AI (8081) LLM 服务  │
         │                               │   POST /ai/chat {prompt, chatId} │
         │                               └──────────────────────────────────┘
-  ```
+
   数据链路说明：前端将搜索词提交给 FastAPI，后端依次完成「拆解 → 搜索 → 抓取 → 总结」，将结果写入 vue_data.json 与
   pics_data.json 两个 JSON 文件；前端随后通过 /api/summary、/api/pics 读取这两个文件并渲染。
-
+  ```
   目录结构
 
   arch-fast.ai
