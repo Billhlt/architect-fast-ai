@@ -42,13 +42,13 @@ Arch-Fast AI 是一个基于「LLM + 爬虫」的**建筑方案搜索与智能�
 └──────────────┘     └──────────────┬───────────────────────────────────────┘
                                     │
                          ┌──────────▼──────────┐
-                         │  外部 LLM (Spring AI) │
+                         │  外部 LLM (Langcahin) │
                          │  http://localhost:8081 │
                          │  POST /ai/chat         │
                          └───────────────────────┘
 ```
 
-> **重要说明**：LLM 本体是**仓库外的独立服务**（Spring AI 后端，`http://localhost:8081/ai/chat`，未包含在本仓库中）。前端与 Python 流水线都通过 `POST` 表单数据 `{ prompt, chatId }` 调用它。**该服务未启动时，所有 LLM 调用都会失败。**
+> **重要说明**：LLM 本体是**仓库外的独立服务**（Langchain 后端，`http://localhost:8081/ai/chat`，未包含在本仓库中）。前端与 Python 流水线都通过 `POST` 表单数据 `{ prompt, chatId }` 调用它。**该服务未启动时，所有 LLM 调用都会失败。**
 
 ### 技术栈
 
@@ -57,7 +57,7 @@ Arch-Fast AI 是一个基于「LLM + 爬虫」的**建筑方案搜索与智能�
 | 前端 | Vue 3 + Vue Router + Vite | 3003 |
 | Python 后端 | FastAPI + Uvicorn + requests + BeautifulSoup4 + tqdm | 8002 |
 | 搜索词代理 | Express (CommonJS，备用) | 3000 |
-| LLM | Spring AI（仓库外部） | 8081 |
+| LLM | Langchain（仓库外部） | 8081 |
 
 ---
 
@@ -109,7 +109,7 @@ pip install fastapi uvicorn requests beautifulsoup4 tqdm
 
 ### 1. 启动外部 LLM（必需）
 
-启动仓库外的 Spring AI 后端，确保 `http://localhost:8081/ai/chat` 可访问。
+启动仓库外的 Langchain 后端，确保 `http://localhost:8081/ai/chat` 可访问。
 
 ### 2. 安装前端依赖并启动
 
@@ -154,7 +154,7 @@ npm run server       # 启动 Express 代理 (端口 3000，备用)
 | `GET` | `/api/summary` | 从 `vue_data.json` 读取并返回总结列表 |
 | `GET` | `/api/pics` | 从 `pics_data.json` 读取并返回图片链接列表 |
 
-### 外部 LLM（Spring AI，端口 8081）
+### 外部 LLM（LLM API，端口 8081）
 
 | 方法 | 路径 | 说明 |
 |---|---|---|
