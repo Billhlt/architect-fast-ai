@@ -24,7 +24,7 @@ Arch-Fast AI 是一个基于「LLM + 爬虫」的**建筑方案搜索与智能�
 ---
 
 ## ✨ 演示视频
-Uploading 录屏 2026-08-12 20-48-52.mp4…
+https://github.com/user-attachments/assets/f14210e0-9080-4ce4-96d9-d5a6ae0b286c
 
 ---
 
