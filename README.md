@@ -25,20 +25,20 @@ Arch-Fast AI 是一个基于「LLM + 爬虫」的**建筑方案搜索与智能�
 
 ## ✨ 运行截图
 #### 1.初始界面
-![Uploading 截图 2026-10-13 10-22-16.png…]()
+<img width="2477" height="1408" alt="截图 2026-10-13 10-22-16" src="https://github.com/user-attachments/assets/468aa2f7-7fe9-4a6c-81fc-a7650afcdfe4" />
 
 #### 2.输入查询需求
-![Uploading 截图 2026-10-13 10-22-29.png…]()
+<img width="2477" height="1408" alt="截图 2026-10-13 10-22-29" src="https://github.com/user-attachments/assets/145e939d-8fc6-4e31-a293-00c579534b64" />
 
 #### 3.主界面
-![Uploading 截图 2026-10-13 10-22-35.png…]()
+<img width="2477" height="1408" alt="截图 2026-10-13 10-22-35" src="https://github.com/user-attachments/assets/8837f77c-0d04-49ec-9426-ae5721b3015f" />
 
 #### 4.标记文章
-![Uploading 截图 2026-10-13 10-22-42.png…]()
+<img width="2477" height="1408" alt="截图 2026-10-13 10-22-42" src="https://github.com/user-attachments/assets/c1d91a56-af83-4d14-a7a1-49d8f2d78b9c" />
 
 #### 5.查看图片内容
-![Uploading 截图 2026-10-13 10-22-55.png…]()
-![Uploading 截图 2026-10-13 10-23-02.png…]()
+<img width="2477" height="1408" alt="截图 2026-10-13 10-22-55" src="https://github.com/user-attachments/assets/b836823d-ba4b-4e87-9da0-d6136644b7de" />
+<img width="2477" height="1408" alt="截图 2026-10-13 10-23-02" src="https://github.com/user-attachments/assets/1aa1c462-2a3d-403d-93d8-21e022b8136d" />
 ![Uploading 截图 2026-10-13 10-23-07.png…]()
 
 ---
